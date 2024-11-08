@@ -6,13 +6,24 @@
 # Give them a positive affirmation at the end - tell them they rock at doing something
 
 
-name = input("name: ")
-food = input("favorite food: ")
-music = input("favorite music: ")
-location = input("where do you live: ")
-
-print()
 print("Getting to know you!")
-print("You are\n" + name + "\nYou\'re probably hungry for\n" + food +
-      "\nand you\'re definitely getting your groove on to\n" + music +
-      " living in the amazing\n" + location)
+
+YourName = input("What is your name? ")
+Hungry = input ("What is your favorite food? ")
+Music = input("What is your favorite music? ")
+WhereAreYou = input("Where are you? ")
+
+print("You are")
+print(YourName)
+print() 
+
+print("You're probably hungry for")
+print(Hungry)
+print()
+print("You're probably listening to")
+print (Music)
+print()
+print ("You're probably living in the amazing")
+print (WhereAreYou)
+print() 
+print ("Have a great day!")
